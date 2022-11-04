@@ -1,0 +1,27 @@
+{
+  "name": "Shuttle",
+  "version": "1.0.0",
+  "description": "Unblocker website w/ Ultraviolet",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shuttle-Network/Shuttle.git"
+  },
+  "keywords": [
+    "proxy"
+  ],
+  "author": "",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://github.com/Shuttle-Network/Shuttle",
+  "dependencies": {
+    "@tomphttp/bare-server-node": "^1.0.4-deps1",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}

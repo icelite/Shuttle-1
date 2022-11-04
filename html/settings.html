@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <title>Shuttle</title>
+    <link rel="icon" href="/assets/img/logo.png">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <script src="https://kit.fontawesome.com/be27c0ad9d.js" crossorigin="anonymous"></script>
+    <script src="/assets/js/index.js" defer></script>
+    <script src="/assets/js/abc.js"></script>
+    <script src="/assets/js/settings.js"></script>
+  </head>
+  <body>
+    <!-- Navbar start -->
+    <input type="checkbox" id="check">
+    <label for="check">
+      <i class="fa-solid fa-bars fa-2xl" id="btn"></i>
+      <i class="fa-solid fa-x" id="cancel"></i>
+    </label>
+    <div class="sidebar">
+      <h2 class="nav-header"><i class="fa-solid fa-rocket"></i> | Shuttle</h2>
+      <a href="/" class="active"><span>Home</span></a>
+      <a href="/apps"><span>Apps</span></a>
+      <a href="/games"><span>Games</span></a>
+      <a href="/settings"><span>Settings</span></a>
+    </div>
+    <!-- Navbar end -->
+    <div class="alignment-container-1">
+       <h1 class="settings-head">Settings</h1>
+            <h2 class="settings-head2">about:blank cloaking</h2>
+            <button class="button" onclick="goBlank()">Go about:blank</button>
+            <br>
+      <br>
+      <h2 class="settings-head2">Browser</h2>
+      <select class="browsers" id="browsers" onchange="changeSearch(this)">
+        <option>DuckDuckGo</option>
+        <option>Brave</option>
+        <option>Google</option>
+      </select>
+    </div>
+    <div class="stars js-stars -visible" style="height: 100%;">
+      <div class="small"></div>
+      <div class="medium"></div>
+      <div class="big"></div>
+    </div>
+    <script src="/uv/uv.bundle.js"></script>
+    <script src="/uv/uv.config.js"></script>
+  </body>
+</html>
