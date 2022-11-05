@@ -137,9 +137,9 @@ body{
   transition: all .5s ease;
 }
 a.active,a:hover{
-  border-left: 5px solid #824dff;
+  border-left: 5px solid #222;
   color: #fff;
-   background: #5b0a66;
+   background: #111;
 }
 .sidebar a i {
   font-size: 23px;
@@ -220,12 +220,12 @@ label #cancel {
 }
 
 .sidebar > a.active,.sidebar > a:hover:nth-child(even) {
-  --accent-color: #5b0a66;
-  --gradient-color: #c1b1f7;
+  --accent-color: #555555;
+  --gradient-color: #222222;
 }
 .sidebar a.active,.sidebar > a:hover:nth-child(odd) {
-  --accent-color: #c1b1f7;
-  --gradient-color: #A890FE;
+  --accent-color: #555555;
+  --gradient-color: #222222;
 }
 
 
@@ -417,8 +417,4 @@ option {
       -webkit-transform: translateY(-2000px);
       transform: translateY(-2000px)
   }
-}
-#404a:hover {
-  background-color:transparent;
-  font-size:24px;
 }

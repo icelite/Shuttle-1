@@ -50,10 +50,7 @@ httpServer.on('upgrade', (req, socket, head) => {
     socket.end()
   }
 });
-
-httpServer.on('listening', () => {
-  console.log(`\x1b[42m\x1b[1mShuttle ----- Port: ${port}\x1b[0m`)
-  console.log('\x1b[41m\x1b[5m\x1b[1m\x1b[33mPLEASE NOTE: Shuttle is in a development stage. Expect bugs!\x1b[0m')
-});
-
-httpServer.listen({ port: port })
+httpServer.listen({ port: port }, () => { 
+  console.log(`\x1b[42m\x1b[1mShuttle ----- Port: ${port}\x1b[0m`); 
+  console.log('\x1b[41m\x1b[5m\x1b[1m\x1b[33mPLEASE NOTE: Shuttle is in a development stage. Expect bugs!\x1b[0m'); 
+})
